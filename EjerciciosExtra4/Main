@@ -1,0 +1,29 @@
+package Act4;
+
+import Act3.Ventana;
+
+public class Main {
+
+    public static void main(String args[]) {
+        Ventana ventana = new Ventana("Paneles");
+        int cifra = 12000;
+        int a = cifra;
+        for (int i = 1000; i < 10000; i += i) {
+            for (int j = 10; j < 20; j++) {
+                cifra = (int) (cifra % (j * i));
+                if (a == (j * i)) {
+
+                }
+                if (a >= ((j * i) + 1) && a <= ((j * i) + 9)) {
+
+                }
+                if (a >= ((j * i) + 10) && a <= ((j * i) + 99)) {
+
+                }
+                if (a >= ((j * i) + 100) && a <= ((j * i) + 999)) {
+
+                }
+            }
+        }
+    }
+}
